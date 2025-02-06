@@ -20,3 +20,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 #    include OTHER_KEYMAP_C
 #endif // OTHER_KEYMAP_C
 
+
+// https://docs.splitkb.com/product-guides/liatris/power-led
+
+#include "gpio.h"
+
+void keyboard_pre_init_user(void) {
+    gpio_set_pin_output(24);
+    gpio_write_pin_high(24);
+}
