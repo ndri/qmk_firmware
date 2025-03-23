@@ -75,12 +75,12 @@
       "LSFT(KC_COMM)",
       "LSFT(KC_DOT)",
       "LSFT(KC_MINS)",
-      "KC_NO",
-      "KC_NO",
+      "KC_TRNS",
+      "KC_TRNS",
       "KC_ENT",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO"
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS"
     ]
   ],
   "author": ""
